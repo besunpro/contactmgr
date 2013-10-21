@@ -1,0 +1,12 @@
+ex06
+
+10/10
+
+pas nécessaire si aucune valeur ajoutée:
+  String get email => _email;
+  set email(String email) {
+    _email = email;
+  }
+->
+_email -> email
+
