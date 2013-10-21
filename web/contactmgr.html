@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact manager v1.0</title>
+    <link rel="stylesheet" href="css/contactmgr.css">    
+    <link rel="stylesheet" href="css/contactlist.css">   
+  </head>
+  <body>
+    
+    <div class=surface>
+      
+      <div class=surface-screen>
+      
+        <table width="100%">
+            <tr>
+                <td><h1>Contact manager</h1></td>
+                <td align="right"><a href="help.html" target="_blank"> Help </a></td>
+                <td align="right"><button id="addnewcontact" class="button">Add a new contact</button></td>
+            </tr>
+        </table>
+      
+        <div id="divtoggleform" style="display: none;">
+        <div class=surface-form>      
+          <div>
+            <table>
+              <tr>
+                <td class="form-label">Last name</td>
+                <td><input id="lastname" type="text" class="form-field form-field-std" maxlength="60" required/></td>
+              </tr>              
+              <tr>
+                <td class="form-label">First name</td>
+                <td><input id="firstname" type="text" class="form-field form-field-std" maxlength="60" required autofocus/></td>
+              </tr>
+              <tr>
+                <td class="form-label">Telephone</td>
+                <td><input id="telephone" type="tel" class="form-field form-field-tel" maxlength="20" required/>
+              </td>
+              </tr>
+              <tr>
+                <td class="form-label">Email</td>
+                <td><input id="email" type="email" class="form-field form-field-eml" maxlength="150"/> <span style="color:#bbbbbb">*optional</span></td>
+              </tr>
+            </table><br>
+          </div> 
+          <div id="message" style="color:#ce3229"> <!--prompt message--></div>
+          <div style="padding-left:50px">
+            <button id="savecontact" class="button button-form-wi">Save</button>
+            <button id="closeform" class="button button-form-wi">Close</button>            
+          </div>
+        </div> 
+        </div><!--endof div toggle form--> 
+
+        <p>
+        <div id="tablecontacts">
+          <!--contacts list come here-->
+        </div>
+        </p>
+        
+      </div> <!--endof div screen-->
+    </div> 
+
+    <script type="application/dart" src="contactmgr.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

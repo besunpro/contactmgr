@@ -1,0 +1,79 @@
+
+.list-tableHeaderL{
+  background-color: #CE3229;
+  color: #FFFFFF;
+  font-size: 14;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-bottom: 1px solid #FF3333;
+}
+
+.list-tableHeaderR{
+  background-color: #CE3229;
+  color: #FFFFFF;
+  font-size: 14;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-bottom: 1px solid #FF3333;
+}
+
+.list-tableRowA
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: #ffdad9; 
+  border-bottom: 10px solid #ffffff;
+  color: #000000;
+  border-top: 1px solid transparent;
+}
+
+.list-tableRowB
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: #d9ece2; 
+  border-bottom: 1px solid #ffffff;
+  color: #000000;
+  border-top: 1px solid transparent;
+}
+
+.list-button {
+  background: #bbbbbb;
+  width: 50px;
+  border-bottom: transparent 1px solid; text-align: center; border-left: transparent 1px solid; padding-bottom: 1px; 
+  padding-top: 1px; line-height: 1.4285; padding-left: 2px; padding-right: 2px; display: inline-block; white-space: nowrap; 
+  margin-bottom: 0px; font-size: 12px; vertical-align: middle; border-top: transparent 1px solid; cursor: pointer; 
+  font-weight: normal; border-right: transparent 1px solid; border-radius: 4px; 
+  -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none
+}
+
+.list-button:focus {
+  outline-style: dotted; outline-color: #333; outline-width: thin; outline-offset: -2px; color: #333333; 
+  text-decoration: none
+}
+
+.list-button:hover {
+  color: #333333; text-decoration: none
+}
+
+.list-button:active {
+  background-image: none; outline-style: none; outline-color: invert; outline-width: 0px; 
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); 
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)
+}
+
+
+
+

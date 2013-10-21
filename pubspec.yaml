@@ -1,0 +1,11 @@
+name: contactmgr
+version: 1.0.0
+author: brice gbaffonou <be.sunpro@gmail.com>
+description: A Web application for contact management
+homepage: https://github.com/besunpro
+documentation: https://github.com/besunpro
+dependencies:
+  dartlero:
+    git: git://github.com/dzenanr/dartlero.git
+  browser: any
+  uuid: any

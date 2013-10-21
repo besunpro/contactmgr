@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #d9ece2;
+    font-weight: normal;
+    line-height: 1.2em;    
+    margin-left: auto;
+    margin-right: auto;
+    padding:15px;
+}
+
+.surface {
+  position: relative; padding-bottom: 267px; padding-left: 38px; padding-right: 38px; margin-bottom: 77px; 
+  color: #ffffff; padding-top: 38px; background-size: 940px 778px
+}
+
+.surface-screen {
+  padding-bottom: 33px; background-color: #1abc9c; min-height: 473px; 
+  padding-left: 306px; padding-right: 199px; padding-top: 123px
+}
+
+.surface-form {
+  position: relative; padding-bottom: 20px; background-color: #edeff1; color: #000000; 
+  padding-left: 23px; padding-right: 23px; padding-top: 24px; border-radius: 6px
+}
+
+
+.surface-form:before {
+  border-bottom: transparent 12px solid; position: absolute; border-left: transparent 0px solid; 
+  width: 0px; height: 0px; border-top: transparent 12px solid; content: ''; top: 35px; 
+  border-right: #edeff1 12px solid; left: -12px; -webkit-transform: rotate(360deg)
+}
+
+
+.surface-form .login-field {
+  border-bottom-color: transparent; border-top-color: transparent; text-indent: 3px; 
+  border-right-color: transparent; font-size: 17px; border-left-color: transparent
+}
+
+.surface-form .login-field:focus {
+  border-bottom-color: #1abc9c; border-top-color: #1abc9c; border-right-color: #1abc9c; 
+  border-left-color: #1abc9c
+}
+
+.surface-link {
+  text-align: center; margin-top: 15px; display: block; color: #bfc9ca; font-size: 13px
+}
+
+.form-label {
+  font-family: 'open sans', sans-serif;
+  font-size: 12px;
+  width: 100px;
+}
+
+.form-field {
+  font-family: 'open sans', sans-serif;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbbbbb;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+ 
+.form-field-std {
+  width: 200px;
+}
+
+.form-field-tel {
+  width: 100px;
+}
+
+.form-field-eml {
+  width: 300px;
+}
+
+.button {
+  background: #bbbbbb;
+  border-bottom: transparent 1px solid; text-align: center; border-left: transparent 1px solid; padding-bottom: 6px; 
+  line-height: 1.4285; padding-left: 12px; padding-right: 12px; display: inline-block; white-space: nowrap; 
+  margin-bottom: 0px; font-size: 14px; vertical-align: middle; border-top: transparent 1px solid; cursor: pointer; 
+  font-weight: normal; border-right: transparent 1px solid; padding-top: 6px; border-radius: 4px; 
+  -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none
+}
+
+.button:focus {
+  outline-style: dotted; outline-color: #333; outline-width: thin; outline-offset: -2px; color: #333333; 
+  text-decoration: none
+}
+.button:hover {
+  color: #333333; text-decoration: none
+}
+
+.button:active {
+  background-image: none; outline-style: none; outline-color: invert; outline-width: 0px; 
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)
+}
+
+.button-form-wi {
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
