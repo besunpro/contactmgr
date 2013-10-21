@@ -124,13 +124,18 @@ void addContact() {
   //contact.name = contact.lastname + contact.firstname; 
   contact.name = uuid.v4();
   if(contacts.add(contact)){
+    //alpha order???...   
     persistContacts();
+    orderContactByLastname();     
     displayContactTable();
   }
-  
-  //alpha order???...
-  contacts.orderByFunction(((Contact c1, Contact c2) => (c1.lastname.compareTo(c2.lastname))));  
+  //clear anyway!
   clearContact();  
+}
+
+void orderContactByLastname() {
+  contacts.orderByFunction(((Contact c1, Contact c2) => 
+      (c1.lastname.toUpperCase().compareTo(c2.lastname.toUpperCase()))));  
 }
 
 void updateContact() {
@@ -140,6 +145,7 @@ void updateContact() {
   contact.telephone = tbTelephone.value;
   contact.email = tbEmail.value;
   persistContacts();
+  orderContactByLastname();  
   displayContactTable();  
   clearContact();
   updateContactCode = '';

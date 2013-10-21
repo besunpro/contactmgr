@@ -47,6 +47,7 @@ main() {
   uuid = new Uuid();
   //print(uuid.v4());
   loadContacts();
+  orderContactByLastname();
   displayContactTable();
 
 }
