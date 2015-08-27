@@ -1,8 +1,8 @@
-
-## Projet 6: Une application web permettant de gerer une liste de contacts
+# Projet 6
+# Une application web permettant de gerer une liste de contacts
 #
 #
-##Informations sur le projet:
+# Informations sur le projet:
 
 **Categories**: Dart, examples, education.
 
