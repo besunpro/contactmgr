@@ -1,10 +1,8 @@
-#-----------------------------------------------
-# Session: A13
-# Cours: SI06014
-# Exercice numero 6: Une application web permettant de gerer une liste de contacts
-# Etudiant: Brice Gbaffonou <be.sunpro@gmail.com>
-#-----------------------------------------------
-#Informations sur le projet:
+
+## Projet 6: Une application web permettant de gerer une liste de contacts
+#
+#
+##Informations sur le projet:
 
 **Categories**: Dart, examples, education.
 
@@ -14,10 +12,10 @@ Une application web permettant de gerer une liste de contacts:
 -Creer, -Modifier, -Supprimer tout en maintenant la liste bien affichee.
 
 
-Quelques considÈrations techniques:
-- Utilisation d'expression rÈguliËre pour valider que le champ telephone ne contient que des chiffres.
-- Utilisation d'expression rÈguliËre pour valider une adresse courriel, par exemple sous la forme xx@yy.ZZ
-- Utilisation de UUID pour identifier chaque enregistrement de faÁon unique
+Quelques consid√©rations techniques:
+- Utilisation d'expression r√©guli√®re pour valider que le champ telephone ne contient que des chiffres.
+- Utilisation d'expression r√©guli√®re pour valider une adresse courriel, par exemple sous la forme xx@yy.ZZ
+- Utilisation de UUID pour identifier chaque enregistrement de fa√ßon unique
 
 Quelques liens utiles:
 - http://pub.dartlang.org/packages/uuid
@@ -33,14 +31,12 @@ Pour aller plus loin:
 - Etendre le tri aux autres colonnes
 - Permettre la variation de la largeur des colonnes
 
-(Des amÈliorations a venir pour rendre l'application plus conviviale, Èvidemment au del‡ du cadre de cet exercice.)
+(Des am√©liorations √† venir pour rendre l'application plus conviviale, √©videmment au del√† du cadre de ce projet.)
 
 
-Ce fut trËs intÈressant.
-Merci pour cet exercice!
+Ce fut tr√®s int√©ressant!
 
-
-Brice
+Be
 
 **Start**:
 Clone the project and open it with Dart Editor.
